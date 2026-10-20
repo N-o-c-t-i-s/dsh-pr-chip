@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PR 状态图标",
+    "description": "在会话行上显示该会话对应 Pull Request 的状态（open / draft / merged / closed）。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "PR Chip",
+    "description": "Shows each session's pull request state (open, draft, merged, closed) as a small icon on its row."
+  }
+}

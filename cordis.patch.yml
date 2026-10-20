@@ -1,0 +1,4 @@
+# dsh-pr-chip bundle patch: installs the PR chip plugin row.
+- insert:
+    - id: dsh-pr-chip
+      name: dsh-pr-chip
