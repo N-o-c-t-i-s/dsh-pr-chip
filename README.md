@@ -82,6 +82,16 @@ Everything lives under `$DSH_HOME/pr-chip/`:
 | `scanned.json` | sessions whose transcript was already backfilled once |
 | `host-loaded.jsonl` | one line per host start (diagnostics) |
 
+## Offline
+
+The chip keeps the last state it observed. When `gh` cannot reach GitHub the endpoint
+answers with the stored state marked `stale: true` instead of `null`, so a dropped
+connection hides nothing — and a failed lookup never overwrites the good state that is
+already on disk. The first successful query after reconnect replaces it.
+
+A session that never resolved a PR has nothing stored, so nothing is invented: it stays
+without a chip.
+
 ## Where it shows
 
 `sidebar.session.row.leading` — the 16px cell before the session title. DSH renders that
