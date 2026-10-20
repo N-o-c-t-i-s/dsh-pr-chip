@@ -4,7 +4,8 @@ Pull request state on every DSH session row — a small icon that tells you whet
 work behind a chat is still `open`, sitting as a `draft`, already `merged`, or `closed`.
 
 A DeepSeek Harness (DSH) plugin: host half resolves the state, browser half draws the
-chip in the sidebar's session row.
+chip in the sidebar's session row. Glyph shapes follow the badge the Codex desktop app
+uses; colours are GitHub's.
 
 > 中文文档见下方「中文」一节。
 
@@ -100,14 +101,6 @@ The leading cell is the only permanent slot, so the chip lives there.
 - **只认真实输出**：必须是 `gh pr create` 自己返回的裸 URL，正文里提到的 URL 不算。
 
 安装后重启宿主生效。没有 PR 的会话行外观完全不变。
-
-## About the icons
-
-The glyph path data was taken from the Codex desktop app so the chip matches the badge
-next to its own rows; the colour palette is GitHub's. If you redistribute this package,
-treat that path data as sitting in a licensing grey area and consider replacing it with
-[lucide](https://lucide.dev) (ISC/MIT) icons — `lib/client.js` keeps all four glyphs in
-one `GLYPHS` table, so a swap is a single edit.
 
 ## License
 
