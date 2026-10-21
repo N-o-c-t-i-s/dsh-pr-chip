@@ -23,6 +23,7 @@
   "files": [
     "lib/",
     "locale/*.json",
+    "icon-quadrant.svg",
     "icon.svg",
     "cordis.patch.yml",
     "README.md",
