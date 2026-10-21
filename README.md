@@ -1,5 +1,7 @@
 # dsh-pr-chip
 
+<p align="center"><img src="icon.png" width="96" alt="PR Chip"></p>
+
 Pull request state on every DSH session row — a small icon that tells you whether the
 work behind a chat is still `open`, sitting as a `draft`, already `merged`, or `closed`.
 

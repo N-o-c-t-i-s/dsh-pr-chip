@@ -1,6 +1,6 @@
 {
   "name": "dsh-pr-chip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Pull request state chip on every DSH session row.",
   "license": "MIT",
